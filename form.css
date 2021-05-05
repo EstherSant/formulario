@@ -1,0 +1,101 @@
+#area {
+    width: 400px;
+    padding: 30px;
+    border:2px solid #cccc;
+    border-radius: 15px;
+    margin: 20px;
+    position: absolute;
+    left: 450px;
+    background: rgb(55,59,68);
+    background: radial-gradient(circle, rgba(55,59,68,1) 0%, rgba(69,123,157,1) 100%);
+    box-shadow: 0 0 1em #373b44;
+
+}
+
+#area h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+#area label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    color: #ffffff;
+}
+.campo {
+    width: 100%;
+    margin: 10px ;
+   }
+
+.campo-data {
+    margin: 10px ;
+}
+
+input[type=textname],
+  .input{
+    width: 50%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;  
+    border: 1px solid #ccc;
+    outline: none;
+    margin: 3px;
+}
+
+input[type=date],
+  .input{
+    width: 50%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;  
+    border: 1px solid #ccc;
+    outline: none;
+    margin: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+input[type=text],
+  .input{
+    width: 50%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;  
+    border: 1px solid #ccc;
+    outline: none;
+    margin: 3px
+}
+  
+.campo-radio {
+    width: auto;
+    display: inline-block;
+}
+
+.campo-select {
+    width: auto;
+    margin: 10px 0;
+}
+input[type=submit]{
+    display: block;
+    background: linear-gradient(to right, rgb(15, 32, 39), rgb(32, 58, 67), rgb(44, 83, 100));
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+    color: #ffffff;
+    box-shadow: 0 0 1em #000000;
+}
+
+input[type=submit]:hover{
+    background: linear-gradient(to right, rgb(32, 58, 67), rgb(32, 58, 67), rgb(32, 58, 67));
+}
+
+
